@@ -1,0 +1,171 @@
+*
+{
+	margin : 0px;
+	padding : 0px;
+	font-family: Calibri;
+}
+
+body
+{
+	width: 1000px;
+	margin : auto;
+}
+
+#logo
+{
+	float:left;
+	background-image: url(../images/logo.jpg);
+	background-repeat:no-repeat;
+	height:121px;
+	width : 191px;
+}
+
+#banniere
+{
+	float:left;
+	width : 793px;
+	height:81px;
+	background-color: #5d9bf0;
+	padding: 0.5em;
+}
+
+#menu
+{
+	float:left;
+	width : 809px;
+	background-color:#5d9bf0;
+}
+
+.separateur
+{
+	clear : both;
+	background-color:#f0f0f0;
+	height : 20px;
+	padding-left : 5px;
+}
+
+h1, h2
+{
+
+	margin-top: 15px;
+	text-align : center;
+}
+
+#menu li
+{
+	float: right;
+	list-style-type:none;
+	margin-right : 3px;
+	border-radius : 0px 5px 0px 0px;
+	border-bottom : none;
+	padding: 3px;
+	background-color : #f0f0f0;
+}
+
+a
+{
+	text-decoration : none;
+	color :#5d9bf0;
+}
+
+a:hover{
+	color : orange;
+}
+
+#centre
+{
+	min-height:250px;
+	padding: 1em;
+}
+#footer
+{
+	clear: both;
+	text-align : center;
+	padding : 1px;
+	height : 20px;
+	background-color: #5d9bf0;
+}
+
+#footer a
+{
+	color : blue;
+}
+
+#footer a:hover
+{
+	color : orange;
+}
+
+form
+{
+	margin-bottom: 15px;
+}
+
+fieldset
+{
+	width : 55%;
+	margin : auto;
+	border : 1px solid;
+	border-radius: 20px;
+	padding: 10px;
+	background-color : #f0f0f0;
+}
+
+label
+{
+	float: left;
+	width: 250px;
+	text-align: left;
+}
+input
+{
+	margin-bottom: 10px;
+	padding : 5px;
+}
+select
+{
+	margin-bottom:10px;
+}
+table, tr, td, th
+{
+	border-collapse: collapse;
+	border: 1px solid black;
+	padding : 3px;
+	text-align:center;
+	margin : auto;
+}
+
+#mdpoublie
+{
+	text-align:center;
+}
+
+.flottant_droite {
+
+	float: right;
+}
+span.label_profil {
+
+	font-weight: bold;
+}
+
+.toggle{
+	text-decoration : underline;
+}
+
+
+.toggle:hover{
+	text-decoration : underline;
+	color : orange;
+}
+
+.guide{
+	margin-left : 50px;
+	display : none;
+}
+
+.important{
+	text-decoration : underline;
+	font-weight : bold;
+	color : red;
+}

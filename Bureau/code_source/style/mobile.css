@@ -1,0 +1,156 @@
+*
+{
+	margin : 0px;
+	padding : 0px;
+	font-family: Courier/Courier New;
+}
+
+body
+{
+	width: 800px;
+	margin : auto;
+}
+
+#logo
+{
+	float:left;
+	background-image: url(../images/logo-mobile.jpg);
+	background-repeat:no-repeat;
+	height: 224px;
+	width : 350px;
+}
+
+#banniere
+{
+	float:left;
+	width : 434px;
+	height : 116px;
+	background-color: #5d9bf0;
+	padding: 0.5em;
+}
+
+#menu
+{
+	float:right;
+	width : 450px;
+	height : 108px;
+	background-color:#5d9bf0;
+}
+
+#menu a
+{
+	float : right;
+}
+
+#menu img
+{
+	width : 90px;
+}
+
+.separateur
+{
+	clear : both;
+	background-color:#f0f0f0;
+	height : 30px;
+	padding-left : 5px;
+}
+
+h1, h2
+{
+
+	margin-top: 15px;
+	text-align : center;
+}
+
+a
+{
+	text-decoration : none;
+	color :#5d9bf0;
+}
+
+#centre
+{
+	min-height:250px;
+	padding: 1em;
+}
+#footer
+{
+	clear: both;
+	text-align : center;
+	padding : 1px;
+	height : 30px;
+	background-color: #5d9bf0;
+}
+
+#footer a
+{
+	color : blue;
+}
+
+form
+{
+	margin-bottom: 15px;
+}
+
+fieldset
+{
+	width : 63%;
+	margin : auto;
+	border : 1px solid;
+	border-radius: 20px;
+	padding: 10px;
+	background-color : #f0f0f0;
+}
+
+label
+{
+	float: left;
+	width: 200px;
+	text-align: left;
+}
+input
+{
+	margin-bottom: 10px;
+	padding : 5px;
+}
+select
+{
+	margin-bottom:10px;
+}
+table, tr, td, th
+{
+	border-collapse: collapse;
+	border: 2px solid black;
+	padding : 4px;
+	text-align:center;
+	margin : auto;
+}
+
+#mdpoublie
+{
+	text-align:center;
+}
+
+.flottant_droite {
+
+	float: right;
+}
+span.label_profil {
+
+	font-weight: bold;
+}
+
+.toggle{
+	text-decoration : underline;
+}
+
+.guide{
+	margin-left : 50px;
+	display : none;
+}
+
+.important{
+	text-decoration : underline;
+	font-weight : bold;
+	color : red;
+}
